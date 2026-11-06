@@ -44,8 +44,20 @@ public class PlayerMovement : MonoBehaviour
                 spriteRenderer.flipX = true;
             }
         }
+
+        if (animator)
+        {
+            if (velocity.x > 0.01f || velocity.x < -0.01f)
+            {
+                animator.SetBool("Running", true);
+            }
+            else
+            {
+                animator.SetBool("Running", false);
+            }
+        }
         
-        //
+        // Vertical movement + gravity
         isGrounded = IsGrounded();
         ApplyGravity();
         if (wasGrounded && jumpRequested)

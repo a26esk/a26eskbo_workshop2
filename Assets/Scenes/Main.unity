@@ -188,8 +188,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4292837887
+  m_fontColor: {r: 1, g: 0.504717, b: 0.87439454, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -206,8 +206,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25
-  m_fontSizeBase: 25
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -634,10 +634,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2747324129029930667, guid: db0923c59b4e6fe4d94e2fa46845438a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db0923c59b4e6fe4d94e2fa46845438a, type: 3}
 --- !u!1 &222809698
 GameObject:
@@ -2682,8 +2679,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -480, y: 231}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -504.9, y: 235.2}
+  m_SizeDelta: {x: 100, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2048378074
 MonoBehaviour:
@@ -2884,15 +2881,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Reset
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 99525116310fcd34a960073812dc3d3d, type: 2}
+  m_sharedMaterial: {fileID: 4755152940630656666, guid: 99525116310fcd34a960073812dc3d3d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4278248703
+  m_fontColor: {r: 1, g: 0.8960046, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3451,10 +3448,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2747324129029930667, guid: db0923c59b4e6fe4d94e2fa46845438a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db0923c59b4e6fe4d94e2fa46845438a, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -3466,5 +3460,5 @@ SceneRoots:
   - {fileID: 2058309366}
   - {fileID: 250318312}
   - {fileID: 2046832777}
-  - {fileID: 698556938}
   - {fileID: 374796324}
+  - {fileID: 698556938}

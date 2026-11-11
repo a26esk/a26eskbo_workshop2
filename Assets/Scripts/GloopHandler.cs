@@ -6,10 +6,13 @@ public class GloopHandler : MonoBehaviour
     [SerializeField] private int gloopsCollected = 0;
     [SerializeField] private TextMeshPro gloopsCollectedText;
     [SerializeField] private TextMeshPro victoryText;
+    
+    [SerializeField] private AudioSource audioSource;
 
     public void AddOneGloop()
     {
         gloopsCollected++;
+        audioSource.Play();
     }
 
     void Update()

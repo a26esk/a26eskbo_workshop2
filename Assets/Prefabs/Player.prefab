@@ -247,7 +247,7 @@ MonoBehaviour:
   groundCheckCollder: {fileID: 6871140041771787831}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 8
   speed: 10
   jumpHeight: 10
   spriteRenderer: {fileID: 2606187397066273003}

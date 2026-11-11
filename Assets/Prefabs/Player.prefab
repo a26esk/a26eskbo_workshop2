@@ -420,6 +420,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5286898354129456508}
     m_Modifications:
+    - target: {fileID: 951925628297757403, guid: 28021bde76424324da9ab0dfaed969de, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 2780261465884606533, guid: 28021bde76424324da9ab0dfaed969de, type: 3}
       propertyPath: m_Name
       value: Background
@@ -458,7 +462,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7551763981365759927, guid: 28021bde76424324da9ab0dfaed969de, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7551763981365759927, guid: 28021bde76424324da9ab0dfaed969de, type: 3}
       propertyPath: m_LocalRotation.w

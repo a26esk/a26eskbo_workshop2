@@ -33,7 +33,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.69, y: 0.69, z: 0.69}
   m_ConstrainProportionsScale: 1
-  m_Children: []
+  m_Children:
+  - {fileID: 2888465575591698889}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7583377501966065124
@@ -305,3 +306,133 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!1001 &5570245152119891049
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6720415209867423706}
+    m_Modifications:
+    - target: {fileID: 196623240228345849, guid: b04579b480499984ca6938729b20c1de, type: 3}
+      propertyPath: m_Radius
+      value: 2.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 196623240228345849, guid: b04579b480499984ca6938729b20c1de, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 1510549011650412143, guid: b04579b480499984ca6938729b20c1de, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1510549011650412143, guid: b04579b480499984ca6938729b20c1de, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1510549011650412143, guid: b04579b480499984ca6938729b20c1de, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 63.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2718336202246792668, guid: b04579b480499984ca6938729b20c1de, type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2718336202246792668, guid: b04579b480499984ca6938729b20c1de, type: 3}
+      propertyPath: 'dialogueLines.Array.data[0]'
+      value: ' I fucking love to party '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2718336202246792668, guid: b04579b480499984ca6938729b20c1de, type: 3}
+      propertyPath: 'dialogueLines.Array.data[1]'
+      value: ' You got any droopgloop? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2718336202246792668, guid: b04579b480499984ca6938729b20c1de, type: 3}
+      propertyPath: 'dialogueLines.Array.data[2]'
+      value: ' Man I''d fucking love some\ndroopgloop right now... '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2718336202246792668, guid: b04579b480499984ca6938729b20c1de, type: 3}
+      propertyPath: onDialogueStart.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2718336202246792668, guid: b04579b480499984ca6938729b20c1de, type: 3}
+      propertyPath: onDialogueStart.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3626791399770353603, guid: b04579b480499984ca6938729b20c1de, type: 3}
+      propertyPath: m_Name
+      value: DialogueSystem
+      objectReference: {fileID: 0}
+    - target: {fileID: 4643079413440638489, guid: b04579b480499984ca6938729b20c1de, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4643079413440638489, guid: b04579b480499984ca6938729b20c1de, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4643079413440638489, guid: b04579b480499984ca6938729b20c1de, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4643079413440638489, guid: b04579b480499984ca6938729b20c1de, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4643079413440638489, guid: b04579b480499984ca6938729b20c1de, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4643079413440638489, guid: b04579b480499984ca6938729b20c1de, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302754296031135136, guid: b04579b480499984ca6938729b20c1de, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302754296031135136, guid: b04579b480499984ca6938729b20c1de, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302754296031135136, guid: b04579b480499984ca6938729b20c1de, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302754296031135136, guid: b04579b480499984ca6938729b20c1de, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302754296031135136, guid: b04579b480499984ca6938729b20c1de, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302754296031135136, guid: b04579b480499984ca6938729b20c1de, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302754296031135136, guid: b04579b480499984ca6938729b20c1de, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302754296031135136, guid: b04579b480499984ca6938729b20c1de, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302754296031135136, guid: b04579b480499984ca6938729b20c1de, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302754296031135136, guid: b04579b480499984ca6938729b20c1de, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b04579b480499984ca6938729b20c1de, type: 3}
+--- !u!4 &2888465575591698889 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7302754296031135136, guid: b04579b480499984ca6938729b20c1de, type: 3}
+  m_PrefabInstance: {fileID: 5570245152119891049}
+  m_PrefabAsset: {fileID: 0}

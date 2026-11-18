@@ -9,7 +9,7 @@ public class GloopHandler : MonoBehaviour
     [SerializeField] private TextMeshPro gloopsCollectedText;
     [SerializeField] private TextMeshPro victoryText;
     
-    [SerializeField] private int winGloopsNeeded;
+    [SerializeField] private int winGloopsNeeded = 20;
     [SerializeField] private AudioSource audioSource;
 
 
@@ -41,8 +41,8 @@ public class GloopHandler : MonoBehaviour
         else
         {
             victoryText.text = "Great fucking party!!!!!";
+            mainDancerDialogue.useDialogue2 = false;
             if (mainDancerDialogue.allowDialogueSwitch) mainDancerDialogue.useDialogue3 = true;
-            
         }
     }
 }

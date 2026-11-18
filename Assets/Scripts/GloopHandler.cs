@@ -36,12 +36,12 @@ public class GloopHandler : MonoBehaviour
         if (gloopsCollected < winGloopsNeeded && gloopsCollected > 0)
         {
             victoryText.text = "Barely a party";
-            //if (mainDancerDialogue.allowDialogueSwitch) mainDancerDialogue.useDialogue2 = true;
+            if (mainDancerDialogue.allowDialogueSwitch) mainDancerDialogue.useDialogue2 = true;
         }
         else
         {
             victoryText.text = "Great fucking party!!!!!";
-            //if (mainDancerDialogue.allowDialogueSwitch) mainDancerDialogue.useDialogue3 = true;
+            if (mainDancerDialogue.allowDialogueSwitch) mainDancerDialogue.useDialogue3 = true;
             
         }
     }

@@ -5,7 +5,12 @@ using UnityEngine.UI;
 
 public class Dialogue : MonoBehaviour
 {
+    public bool allowDialogueSwitch = false;
+    public bool useDialogue2 = false;
+    public bool useDialogue3 = false;
     [SerializeField] private List<string> dialogueLines;
+    [SerializeField] private List<string> dialogueLines2;
+    [SerializeField] private List<string> dialogueLines3;
     [SerializeField] private TMPro.TextMeshProUGUI text;
     [Header("Range")]
     [Tooltip("Add a TriggerCollider to only display button if player is close")]
@@ -39,30 +44,45 @@ public class Dialogue : MonoBehaviour
     
     public void NextDialogue()
     {
+        List<string> lines;
+        if (useDialogue2 && dialogueLines2.Count > 0)
+        {
+            lines = dialogueLines2;
+            Debug.Log("2" + dialogueLines2.Count);
+        }
+        else if (useDialogue3 && dialogueLines3.Count > 0)
+        {
+            lines = dialogueLines3;
+            Debug.Log("3" + dialogueLines3.Count);
+        }
+        else
+        {
+            lines = dialogueLines;
+        }
+        
         if (currentIndex < 0)
         {
             onDialogueStart.Invoke();
         }
 
         currentIndex++;
-        if (currentIndex < dialogueLines.Count)
+        if (currentIndex < lines.Count)
         {
-            text.text = dialogueLines[currentIndex];
+            text.text = lines[currentIndex];
         }
         else
         {
             text.text = startText;
             currentIndex = -1;
             onDialogueEnd.Invoke();
+            allowDialogueSwitch = true;
         }
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        print("OnTriggerEnter2D");
         if (ranged && other.tag == tag)
         {
-            print("hello");
             dialogueContainer.SetActive(true);
         }
             

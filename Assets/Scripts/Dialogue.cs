@@ -44,7 +44,7 @@ public class Dialogue : MonoBehaviour
     
     public void NextDialogue()
     {
-        List<string> lines;
+        List<string> lines = new List<string>();
         if (useDialogue2 && dialogueLines2.Count > 0)
         {
             lines = dialogueLines2;
